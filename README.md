@@ -2,7 +2,7 @@
 
 A API Fetch fornece uma interface para buscar recursos (inclusive na rede). Parecerá familiar para quem já usou XMLHttpRequest, mas a nova API oferece um conjunto de recursos mais poderoso e flexível.
 
-#Conceitos e uso 
+##Conceitos e uso  
  
 Fetch fornece uma definição genérica de Requeste Responseobjetos (e outras coisas envolvidas com pedidos de rede). Isso permitirá que sejam usados ​​onde quer que sejam necessários no futuro, seja para service workers, API de cache e outras coisas semelhantes que tratam ou modificam solicitações e respostas, ou qualquer tipo de caso de uso que pode exigir que você gere suas respostas programaticamente (ou seja, o uso de um programa de computador ou instruções de programação pessoal).
 
