@@ -53,3 +53,7 @@ function pokemonAPI (){
         h3.innerHTML = '<b>Você deve colocar um número acima de 0, EX: 1 2 3!</b>'
     }
 }
+
+/*
+A API Fetch fornece uma interface para buscar recursos (inclusive na rede). Parecerá familiar para quem já usou XMLHttpRequest, mas a nova API oferece um conjunto de recursos mais poderoso e flexível.
+*/
