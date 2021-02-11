@@ -16,5 +16,3 @@ O  fetch() método tem um argumento obrigatório, o caminho para o recurso que v
 
 Depois que um Responseé recuperado, há vários métodos disponíveis para definir o que é o conteúdo do corpo e como ele deve ser tratado (consulte Recursos Body).
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-
-<html><img src="https://im3.ezgif.com/tmp/ezgif-3-9ad90c587144.gif"></html>
