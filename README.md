@@ -1,18 +1,18 @@
-# consumindo-api-pokemon-com-fetch
+# consuming-api-pokemon-with-fetch
 
-![Exemplo de como fuciona](https://github.com/Laudier2/consumindo-api-pokemon-com-fetch/blob/master/img/gitgif.gif)
+! [Example of how it works] (https://github.com/Laudier2/consumindo-api-pokemon-com-fetch/blob/master/img/gitgif.gif)
 
-A API Fetch fornece uma interface para buscar recursos (inclusive na rede). Parecerá familiar para quem já usou XMLHttpRequest, mas a nova API oferece um conjunto de recursos mais poderoso e flexível.
+The Fetch API provides an interface for fetching resources (including from the network). It will look familiar to anyone who has used XMLHttpRequest, but the new API offers a more powerful and flexible feature set.
 
-##Conceitos e uso  
+## Concepts and usage
  
-Fetch fornece uma definição genérica de Requeste Responseobjetos (e outras coisas envolvidas com pedidos de rede). Isso permitirá que sejam usados ​​onde quer que sejam necessários no futuro, seja para service workers, API de cache e outras coisas semelhantes que tratam ou modificam solicitações e respostas, ou qualquer tipo de caso de uso que pode exigir que você gere suas respostas programaticamente (ou seja, o uso de um programa de computador ou instruções de programação pessoal).
+Fetch provides a generic definition of Requeste Responseobjects (and other things involved with network requests). This will allow them to be used wherever they are needed in the future, be it for service workers, cache APIs and the like that handle or modify requests and responses, or any type of use case that may require you to generate your responses programmatically (that is, the use of a computer program or personal programming instructions).
 
-Ele também define conceitos relacionados, como CORS e a semântica do cabeçalho HTTP Origin, substituindo suas definições separadas em outros lugares.
+It also defines related concepts, such as CORS and the HTTP Origin header semantics, replacing its separate definitions elsewhere.
 
-Para fazer uma solicitação e buscar um recurso, use o WindowOrWorkerGlobalScope.fetch()método. É implementado em várias interfaces, especificamente Windowe WorkerGlobalScope. Isso o torna disponível em praticamente qualquer contexto em que você queira buscar recursos.
+To make a request and fetch a resource, use the WindowOrWorkerGlobalScope.fetch () method. It is implemented on several interfaces, specifically Windowe WorkerGlobalScope. This makes it available in almost any context in which you want to look for resources.
 
-O  fetch() método tem um argumento obrigatório, o caminho para o recurso que você deseja buscar. Ele retorna um Promiseque resolve para Responseessa solicitação, seja ela bem-sucedida ou não. Você também pode opcionalmente passar um initobjeto de opções como o segundo argumento (consulte Request).
+The fetch () method has a mandatory argument, the path to the resource you want to fetch. It returns a Promiseque resolves for Response to that request, whether it is successful or not. You can also optionally pass an initobject of options as the second argument (see Request).
 
-Depois que um Responseé recuperado, há vários métodos disponíveis para definir o que é o conteúdo do corpo e como ele deve ser tratado (consulte Recursos Body).
+After a Response is recovered, there are several methods available to define what the body's content is and how it should be treated (see Body Resources).
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
