@@ -1,6 +1,5 @@
 # consuming-api-pokemon-with-fetch
-
-! [Example of how it works] (https://github.com/Laudier2/consumindo-api-pokemon-com-fetch/blob/master/img/gitgif.gif)
+![Exemplo de como fuciona](https://github.com/Laudier2/consumindo-api-pokemon-com-fetch/blob/master/img/gitgif.gif)
 
 The Fetch API provides an interface for fetching resources (including from the network). It will look familiar to anyone who has used XMLHttpRequest, but the new API offers a more powerful and flexible feature set.
 
