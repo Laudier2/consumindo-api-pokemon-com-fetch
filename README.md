@@ -1,11 +1,12 @@
 # consuming-api-pokemon-with-fetch
+
 ![Exemplo de como fuciona](https://github.com/Laudier2/consumindo-api-pokemon-com-fetch/blob/master/img/gitgif.gif)
 
 The Fetch API provides an interface for fetching resources (including from the network). It will look familiar to anyone who has used XMLHttpRequest, but the new API offers a more powerful and flexible feature set.
 
 ## Concepts and usage
  
-Fetch provides a generic definition of Requeste Responseobjects (and other things involved with network requests). This will allow them to be used wherever they are needed in the future, be it for service workers, cache APIs and the like that handle or modify requests and responses, or any type of use case that may require you to generate your responses programmatically (that is, the use of a computer program or personal programming instructions).
+Fetch provides a generic definition of Requeste Responseobjects (and other things involved with network requests). This will allow them to be used wherever they are needed in the future, be it for service workers, cache APIs and the like that handle or modify requests and responses, or any type of use case that may require you to generate your responses programmatically ( that is, the use of a computer program or personal programming instructions).
 
 It also defines related concepts, such as CORS and the HTTP Origin header semantics, replacing its separate definitions elsewhere.
 
